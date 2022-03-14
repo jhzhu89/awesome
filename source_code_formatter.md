@@ -38,3 +38,15 @@ done
 ```bash
 js-beautify -j -s 2 -E --space-after-named-function -r -b collapse *.js
 ```
+
+## YAML
+
+### yamlfmt
+
+```bash
+pip install --user yamlfmt
+```
+
+```bash
+yamlfmt -w *.yaml
+```

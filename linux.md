@@ -1,4 +1,4 @@
-# Linux Tools
+# Awesome Linux Tools
 
 A curated selection of popular Linux tools.
 

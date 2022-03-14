@@ -6,6 +6,7 @@
 * [Linux Tools](./linux.md)
 * [Distributed Consensus](./consensus.md)
 * [Load Testing Tools](./load_testing.md)
+* [Monitoring](./monitoring.md)
 
 ## Languages, Frameworks and Tools
 

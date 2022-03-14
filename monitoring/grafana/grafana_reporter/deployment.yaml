@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: grafana-reporter
+  namespace: prometheus
+  labels:
+    app: grafana-reporter
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: grafana-reporter
+  template:
+    metadata:
+      labels:
+        app: grafana-reporter
+    spec:
+      containers:
+      - name: grafana-reporter
+        image: gtdevgbl220215wus2acr.azurecr.io/ags/grafana-reporter:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 8686
+        command:
+        - grafana-reporter
+        - -proto
+        - https://
+        - -ip
+        - dashboard.wus2.test-system.azgrafana-test.io
+        - -ssl-check
+        - "false"
