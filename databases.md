@@ -30,7 +30,7 @@ A curated list of amazingly awesome database libraries, resources (mirror of  [a
 * [VoltDB](https://github.com/VoltDB/voltdb/) - VoltDB is a horizontally-scalable, in-memory SQL RDBMS designed for applications that have extremely high read and write throughput requirements.
 
 
-## dot-net
+## .NET
 
 * [RavenDB](https://github.com/ravendb/ravendb) - A linq enabled document database for .NET http://ayende.com/Blog/
 * [OrigoDB](http://dev.origodb.com) - An in-memory embedded database engine for NET/Mono
@@ -42,6 +42,7 @@ A curated list of amazingly awesome database libraries, resources (mirror of  [a
 
 ## Golang
 
+* [BadgerDB](https://github.com/dgraph-io/badger) - An embeddable, persistent and fast key-value (KV) database written in pure Go. 
 * [bolt](https://github.com/boltdb/bolt) - A low-level key/value database for Go.
 * [diskv](https://github.com/peterbourgon/diskv) - A home-grown disk-backed key-value store.
 * [go-cache](https://github.com/pmylund/go-cache) - An in-memory key:value store/cache (similar to Memcached) library for Go, suitable for single-machine applications.
