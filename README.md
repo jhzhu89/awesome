@@ -18,4 +18,8 @@
 ## Others
 
 * [CNCF Cloud Native Interactive Landscape](https://landscape.cncf.io/)
+* [Modern Unix](https://github.com/ibraheemdev/modern-unix)
 
+## Celebrities
+
+* [Fabrice Bellard](https://bellard.org/)
